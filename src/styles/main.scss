@@ -1,8 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Lato:wght@300&display=swap');
+
 $font-size: 1rem;
-$font-color: lch(53 105 40);
+$font-color: #000000;
 
 html {
+  font-family: Fuzzy Bubbles;
   font-size: $font-size;
   color: $font-color;
-  background-color: aquamarine;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 1000px;
+}
+
+.nav {
+  background-color: #6dc0c6;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.logo {
+  padding-top: 10px;
+  width: 30px;
+}
+
+.main {
+  position: absolute;
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+.input {
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  font-family: Fuzzy Bubbles;
+}
+
+.btn {
+  font-family: Fuzzy Bubbles;
+  border: none;
+  border-radius: 5px;
+  background-color: #d1d1d1;
+  width: 40px;
+  height: 25px;
+}
+
+.btn:hover {
+  color: #fff;
+  font-style: italic;
+  text-transform: lowercase;
 }
