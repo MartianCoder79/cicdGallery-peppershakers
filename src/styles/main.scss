@@ -23,6 +23,7 @@ body {
   width: 100%;
   text-align: center;
   font-size: 3rem;
+  z-index: 5;
 }
 
 .logo {
@@ -57,4 +58,10 @@ body {
   color: #fff;
   font-style: italic;
   text-transform: lowercase;
+}
+
+.section__results {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: red 1px solid;
 }

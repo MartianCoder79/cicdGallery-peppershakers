@@ -1,9 +1,6 @@
 import './styles/main.scss';
 
-const apiKey = 'ADD YOUR OWN API KEY';
-
-const navTag = document.createElement('nav');
-
+const apiKey = 'USE YOUR OWN';
 
 const form = document.querySelector('.js-form');
 // form.addEventListener('submit', handleSubmit);
